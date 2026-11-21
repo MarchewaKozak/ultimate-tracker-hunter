@@ -7,6 +7,7 @@ import socket
 import time
 from collections import deque
 from urllib.parse import urljoin, urlparse, urldefrag
+from scanner.tracker_extractor import extract_everything
 
 import aiohttp
 from bs4 import BeautifulSoup
